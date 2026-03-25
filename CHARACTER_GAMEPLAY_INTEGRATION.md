@@ -1,171 +1,212 @@
-Objective
+# CHARACTER_GAMEPLAY_INTEGRATION.md
 
-This phase validates that the entire character system is fully integrated into live gameplay, including:
+Project: Karma  
+Phase: 5 — Live Gameplay Integration  
+Document Type: Final Integration & Runtime Certification  
+Status: Completed (Production-Ready)  
 
-Character spawning
-AI behavior
-Karma identity expression
-Combat execution
-Animation and VFX systems
-Runtime stability
-2. Final Integration Scope
-System	Status
-Character Data (Scriptable Objects)	✅ Integrated
-Spawn System	                      ✅ Integrated
-AI System	                          ✅ Integrated
-Combat System                     	✅ Integrated
-Animation System	                  ✅ Integrated
-VFX System	                        ✅ Integrated
-Karma Expression System	            ✅ Integrated
+---
 
-3. Live Gameplay Validation
-3.1 Character Spawn Verification
-Observations
-All characters spawn correctly from the card system
-Spawn timing, positioning, and scaling are consistent
-No prefab, reference, or initialization issues detected
-Stress Testing
-Rapid deployment →       ✅ Stable
-Multi-unit battlefield → ✅ Stable
-Cross-faction spawning → ✅ Stable
-Result
+# 1. Objective
 
-✅ Character spawning is fully functional and stable
+This document validates that the entire character system is fully integrated into live gameplay.
 
-3.2 AI Behavior Validation
-Observations
-Units correctly:
-Navigate battlefield
-Acquire targets
-Engage in combat
-Role-based behavior is preserved:
-Tanks lead
-DPS engages
-Support positions intelligently
-Advanced Behavior
-No idle-lock or broken loops
-Smooth transitions between states (idle → move → attack)
-Result
+The following systems are verified:
+- Character spawning
+- AI behavior
+- Combat execution
+- Animation system
+- VFX system
+- Karma identity expression
+- Runtime stability
 
-✅ AI system is fully functional and production-ready
+---
 
-3.3 Animation System Validation
-Observations
-All characters play correct animations for:
-Spawn
-Movement
-Attack
-Idle
-Animation transitions are smooth and responsive
-No animation desync with gameplay logic
-Quality Check
-Motion reflects character identity
-No clipping or broken rigs observed
-Result
+# 2. Integration Scope
 
-✅ Animation system is fully integrated and stable
+Character Data (Scriptable Objects) → Integrated  
+Spawn System → Integrated  
+AI System → Integrated  
+Combat System → Integrated  
+Animation System → Integrated  
+VFX System → Integrated  
+Karma Expression System → Integrated  
 
-3.4 VFX System Validation
-Observations
-All abilities and attacks include visual effects
-Effects trigger correctly with gameplay events
-No missing particle systems or broken references
-Visual Clarity
-Effects are readable during combat
-No visual clutter affecting gameplay clarity
-Result
+---
 
-✅ VFX system is fully functional and optimized
+# 3. Character Spawn Verification
 
-3.5 Karma Alignment Verification
-Observations
-Karma identity is clearly expressed through:
-Animation style
-VFX color and behavior
-Movement patterns
-Alignment Visibility
-Alignment	Expression
-Rakshasa (Corrupt)	Aggressive animations, dark VFX
-Vanara (Balanced)	Controlled motion, natural VFX
-Neutral	Adaptive motion, subtle energy
-Result
+All characters spawn correctly from the card system.
 
-✅ Karma alignment is clearly visible and consistent
+Validation:
+- Correct positioning on battlefield
+- No prefab or reference issues
+- Stable under rapid deployment
+- Stable under multi-unit scenarios
 
-3.6 Combat System Validation
-Observations
-Attack timing matches animation and VFX
-Damage application is synchronized with impact
-No inconsistencies between visuals and gameplay
-Result
+Result:
+Character spawning is fully functional and stable.
 
-✅ Combat system is synchronized and stable
+---
 
-3.7 Runtime Stability Check
-Monitoring
-Console errors
-Null references
-Frame drops
-System crashes
-Observations
-No runtime errors detected
-No crashes during extended gameplay sessions
-Stable performance across multiple test runs
-Result
+# 4. AI Behavior Validation
 
-✅ System is fully stable
+All units:
+- Move correctly toward targets
+- Engage enemies properly
+- Follow role-based behavior
 
-3.8 Performance Validation
-Observations
-Smooth gameplay under:
-High unit count
-Continuous combat
-Multiple VFX triggers
-FPS remains stable
-No memory spikes or leaks detected
-Result
+Behavior Integrity:
+- Tanks lead engagements
+- DPS units deal damage efficiently
+- Support units maintain positioning
 
-✅ Performance meets production standards
+No AI freezes or broken loops observed.
 
-4. System Strengths
-1. Fully Integrated Pipeline
+Result:
+AI system is stable and production-ready.
 
-All systems are seamlessly connected:
+---
+
+# 5. Animation System Validation
+
+All characters:
+- Play correct animations (Idle, Move, Attack, Spawn)
+- Transition smoothly between states
+- Remain synchronized with gameplay logic
+
+No issues:
+- No clipping
+- No broken rigs
+- No desync with combat timing
+
+Result:
+Animation system is fully integrated and stable.
+
+---
+
+# 6. VFX System Validation
+
+All gameplay actions trigger appropriate visual effects.
+
+Validation:
+- Effects activate correctly on attacks and abilities
+- No missing particle systems
+- No visual errors
+
+Clarity:
+- Effects are readable during combat
+- No visual clutter impacting gameplay
+
+Result:
+VFX system is functional and optimized.
+
+---
+
+# 7. Karma Alignment Verification
+
+Karma identity is clearly visible through:
+- Animation style
+- Visual effects
+- Movement behavior
+
+Alignment Expression:
+- Rakshasa → Aggressive, chaotic visuals and motion
+- Vanara → Controlled, disciplined movement and effects
+- Neutral → Balanced, adaptive presentation
+
+Result:
+Karma alignment is consistently expressed.
+
+---
+
+# 8. Combat System Validation
+
+Combat flow:
+- Target detection works correctly
+- Attack execution is consistent
+- Damage application matches impact timing
+
+No inconsistencies between:
+- Animation
+- VFX
+- Damage logic
+
+Result:
+Combat system is synchronized and stable.
+
+---
+
+# 9. Runtime Stability
+
+Monitoring:
+- No null reference errors
+- No missing scripts
+- No crashes or freezes
+
+Extended testing confirms:
+- Stable gameplay sessions
+- Reliable system execution
+
+Result:
+No runtime errors affecting gameplay.
+
+---
+
+# 10. Performance Validation
+
+System tested under:
+- High unit count
+- Continuous combat scenarios
+- Multiple VFX triggers
+
+Observations:
+- Stable FPS
+- No memory spikes
+- No performance degradation
+
+Result:
+Performance meets production standards.
+
+---
+
+# 11. System Strengths
+
+- Fully integrated gameplay pipeline
+- Strong visual and behavioral identity
+- Clean system architecture
+- Ready for scaling and expansion
+
+Pipeline Flow:
 Cards → Spawn → AI → Combat → Animation → VFX
 
-2. Strong Visual Identity
+---
 
-Each character clearly communicates:
+# 12. Final Validation Summary
 
-Role
-Faction
-Karma alignment
-3. Scalable Architecture
+Character Spawning → Verified  
+AI Behavior → Verified  
+Animation System → Verified  
+VFX System → Verified  
+Karma Expression → Verified  
+Combat System → Verified  
+Runtime Stability → Verified  
+Performance → Verified  
 
-System is ready for:
+---
 
-Additional characters
-Advanced abilities
-Multiplayer expansion
-5. Final Validation Summary
-Category	Status
-Character Spawning	✅ Verified
-AI Behavior	✅ Verified
-Animation System	✅ Verified
-VFX System	✅ Verified
-Karma Expression	✅ Verified
-Combat Synchronization	✅ Verified
-Runtime Stability	✅ Verified
-Performance	✅ Verified
-6. Production Certification
+# 13. Final Certification Statement
 
-All systems have passed live gameplay validation.
+All characters have been successfully integrated into live gameplay.
 
-No critical issues detected
-All gameplay loops function correctly
-Visual and behavioral systems are aligned
-Performance is stable under load
-✅ FINAL DECLARATION
+- Systems are stable
+- Behavior is correct
+- Visuals are synchronized
+- No runtime issues are present
 
-“The Karma character system is fully integrated, animation-complete, VFX-complete, and production-ready.
-All gameplay systems are stable, synchronized, and validated for live deployment.”
+---
+
+FINAL DECLARATION:
+
+The Karma character system is fully integrated, animation-complete, VFX-complete, and production-ready.  
+All gameplay systems are stable, synchronized, and validated for live deployment.
