@@ -1,13 +1,6 @@
 # CHARACTER_GAMEPLAY_INTEGRATION.md
 
-Project: Karma  
-Phase: 5 — Live Gameplay Integration  
-Document Type: Final Integration & Runtime Certification  
-Status: Completed (Production-Ready)  
-
----
-
-# 1. Objective
+1. Objective
 
 This document validates that the entire character system is fully integrated into live gameplay.
 
@@ -20,9 +13,7 @@ The following systems are verified:
 - Karma identity expression
 - Runtime stability
 
----
-
-# 2. Integration Scope
+2. Integration Scope
 
 Character Data (Scriptable Objects) → Integrated  
 Spawn System → Integrated  
@@ -32,9 +23,7 @@ Animation System → Integrated
 VFX System → Integrated  
 Karma Expression System → Integrated  
 
----
-
-# 3. Character Spawn Verification
+3. Character Spawn Verification
 
 All characters spawn correctly from the card system.
 
@@ -47,9 +36,7 @@ Validation:
 Result:
 Character spawning is fully functional and stable.
 
----
-
-# 4. AI Behavior Validation
+4. AI Behavior Validation
 
 All units:
 - Move correctly toward targets
@@ -66,9 +53,7 @@ No AI freezes or broken loops observed.
 Result:
 AI system is stable and production-ready.
 
----
-
-# 5. Animation System Validation
+ 5. Animation System Validation
 
 All characters:
 - Play correct animations (Idle, Move, Attack, Spawn)
@@ -83,9 +68,7 @@ No issues:
 Result:
 Animation system is fully integrated and stable.
 
----
-
-# 6. VFX System Validation
+6. VFX System Validation
 
 All gameplay actions trigger appropriate visual effects.
 
@@ -101,9 +84,7 @@ Clarity:
 Result:
 VFX system is functional and optimized.
 
----
-
-# 7. Karma Alignment Verification
+ 7. Karma Alignment Verification
 
 Karma identity is clearly visible through:
 - Animation style
@@ -118,9 +99,7 @@ Alignment Expression:
 Result:
 Karma alignment is consistently expressed.
 
----
-
-# 8. Combat System Validation
+ 8. Combat System Validation
 
 Combat flow:
 - Target detection works correctly
@@ -135,9 +114,7 @@ No inconsistencies between:
 Result:
 Combat system is synchronized and stable.
 
----
-
-# 9. Runtime Stability
+ 9. Runtime Stability
 
 Monitoring:
 - No null reference errors
@@ -151,9 +128,7 @@ Extended testing confirms:
 Result:
 No runtime errors affecting gameplay.
 
----
-
-# 10. Performance Validation
+10. Performance Validation
 
 System tested under:
 - High unit count
@@ -168,9 +143,7 @@ Observations:
 Result:
 Performance meets production standards.
 
----
-
-# 11. System Strengths
+ 11. System Strengths
 
 - Fully integrated gameplay pipeline
 - Strong visual and behavioral identity
@@ -180,9 +153,7 @@ Performance meets production standards.
 Pipeline Flow:
 Cards → Spawn → AI → Combat → Animation → VFX
 
----
-
-# 12. Final Validation Summary
+ 12. Final Validation Summary
 
 Character Spawning → Verified  
 AI Behavior → Verified  
@@ -193,9 +164,7 @@ Combat System → Verified
 Runtime Stability → Verified  
 Performance → Verified  
 
----
-
-# 13. Final Certification Statement
+ 13. Final Certification Statement
 
 All characters have been successfully integrated into live gameplay.
 
