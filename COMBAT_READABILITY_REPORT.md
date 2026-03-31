@@ -11,7 +11,6 @@ Players must instantly understand:
 
 ## **2. Attack Type Clarity**
 
-### **Status: ✅ Implemented**
 
 Each character now clearly communicates its attack type:
 
@@ -31,7 +30,6 @@ Each character now clearly communicates its attack type:
 
 ## **3. Movement Style by Role**
 
-### **Status: ✅ Implemented**
 
 Movement behavior reflects character role:
 
@@ -52,7 +50,6 @@ Movement behavior reflects character role:
 
 ## **4. Impact Feedback Visibility**
 
-### **Status: ✅ Implemented**
 
 All attacks provide clear feedback on hit:
 
@@ -70,8 +67,6 @@ All attacks provide clear feedback on hit:
 ---
 
 ## **5. Visual Effects (VFX) Layer**
-
-### **Status: ✅ Implemented**
 
 Basic VFX added to reinforce combat clarity:
 
@@ -91,8 +86,6 @@ Basic VFX added to reinforce combat clarity:
 ---
 
 ## **6. Animation Clarity**
-
-### **Status: ✅ Implemented**
 
 Combat animations are readable and unambiguous:
 
@@ -124,12 +117,12 @@ Combat animations are readable and unambiguous:
 
 ## **8. Final Verification Checklist**
 
-* [x] Attack type instantly recognizable
-* [x] Movement reflects character role
-* [x] Impact feedback clearly visible
-* [x] VFX enhances readability
-* [x] Animations are clean and unambiguous
-* [x] No combat confusion during multi-unit scenarios
+  * Attack type instantly recognizable
+  * Movement reflects character role
+  * Impact feedback clearly visible
+  * VFX enhances readability
+  * Animations are clean and unambiguous
+  * No combat confusion during multi-unit scenarios
 
 ---
 
