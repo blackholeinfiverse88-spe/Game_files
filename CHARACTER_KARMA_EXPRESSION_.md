@@ -10,7 +10,6 @@ This phase ensures:
 - Clear differentiation between Karma types
 - No gameplay stat changes
 
----
 
 ## 2. Observations
 
@@ -30,7 +29,6 @@ Characters initially felt:
 Solution:
 Introduce Karma-driven behavior variance
 
----
 
 ## 3. Karma Expression Implementation
 
@@ -57,7 +55,6 @@ Units:
 -  Clear offensive identity
 -  Feels dominant in frontline
 
----
 
 ### B. Disciplined Karma
 
@@ -81,7 +78,6 @@ Units:
 -  Feels strategic and controlled
 -  Clear contrast vs aggressive units
 
----
 
 ### C. Risk-Based Karma
 
@@ -105,7 +101,7 @@ Units:
 -  Feels dynamic and less robotic
 -  No gameplay-breaking behavior
 
----
+
 
 ## 4. Behavior & Animation Sync
 
@@ -125,7 +121,7 @@ Units:
 -  No visible desync
 -  Behavior matches visual intent
 
----
+
 
 ## 5. System Integration
 
@@ -149,7 +145,7 @@ Without affecting:
 - Targeting
 - Combat systems
 
----
+
 
 ## 6. Final Verification Checklist
 
@@ -161,7 +157,7 @@ Without affecting:
 -  AI and animation synchronized
 -  No gameplay instability
 
----
+
 
 ## 7. Final Outcome
 
